@@ -7,9 +7,13 @@
 //
 
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
+#include <string.h>
+#include "common.h"
 
+void gen(int);
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    insertSortMain();
     return 0;
 }
